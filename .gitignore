@@ -1,2 +1,2 @@
 # Do not save the build directory in the repository
-/build
+build/

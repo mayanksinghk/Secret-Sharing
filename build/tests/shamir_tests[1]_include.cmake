@@ -1,5 +1,0 @@
-if(EXISTS "/home/mayank/Desktop/Personal/Secret_Sharing/build/tests/shamir_tests[1]_tests.cmake")
-  include("/home/mayank/Desktop/Personal/Secret_Sharing/build/tests/shamir_tests[1]_tests.cmake")
-else()
-  add_test(shamir_tests_NOT_BUILT shamir_tests_NOT_BUILT)
-endif()

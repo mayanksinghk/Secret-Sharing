@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/shamir_tests.dir/link.d CMakeFiles/shamir_tests.dir/FiniteFieldTest.cpp.o CMakeFiles/shamir_tests.dir/PolynomialTest.cpp.o CMakeFiles/shamir_tests.dir/ShamirSecretSharingTest.cpp.o -o shamir_tests  ../libshamir_secret_sharing.a ../lib/libgtest_main.a ../lib/libgtest.a

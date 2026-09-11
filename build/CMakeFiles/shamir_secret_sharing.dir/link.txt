@@ -1,2 +1,0 @@
-/usr/bin/ar qc libshamir_secret_sharing.a CMakeFiles/shamir_secret_sharing.dir/src/FiniteField.cpp.o CMakeFiles/shamir_secret_sharing.dir/src/Polynomial.cpp.o CMakeFiles/shamir_secret_sharing.dir/src/ShamirSecretSharing.cpp.o
-/usr/bin/ranlib libshamir_secret_sharing.a
