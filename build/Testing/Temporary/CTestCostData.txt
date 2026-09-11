@@ -1,0 +1,11 @@
+FiniteFieldTest.AdditionWrapsCorrectly 1 0.00481311
+FiniteFieldTest.SubtractionPreventsUnderflow 1 0.00419635
+FiniteFieldTest.MultiplicationWrapsCorrectly 1 0.00376083
+FiniteFieldTest.ModularInverseCalculatesCorrectly 1 0.00369319
+FiniteFieldTest.InvertingZeroThrowsException 1 0.0037276
+PolynomialTest.EvaluatesSecretAtZero 1 0.00357344
+PolynomialTest.ZeroThresholdThrowsException 1 0.00353672
+ShamirSecretSharingTest.SplitsAndReconstructsSuccessfully 1 0.00388997
+ShamirSecretSharingTest.ReconstructFailsWithInsufficientShares 1 0.00363656
+ShamirSecretSharingTest.InvalidThresholdThrows 1 0.00392439
+---

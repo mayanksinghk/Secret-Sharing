@@ -1,0 +1,74 @@
+{
+  "tests": 10,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "FiniteFieldTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "AdditionWrapsCorrectly",
+          "file": "\/home\/mayank\/Desktop\/Personal\/Secret_Sharing\/tests\/FiniteFieldTest.cpp",
+          "line": 15
+        },
+        {
+          "name": "SubtractionPreventsUnderflow",
+          "file": "\/home\/mayank\/Desktop\/Personal\/Secret_Sharing\/tests\/FiniteFieldTest.cpp",
+          "line": 20
+        },
+        {
+          "name": "MultiplicationWrapsCorrectly",
+          "file": "\/home\/mayank\/Desktop\/Personal\/Secret_Sharing\/tests\/FiniteFieldTest.cpp",
+          "line": 25
+        },
+        {
+          "name": "ModularInverseCalculatesCorrectly",
+          "file": "\/home\/mayank\/Desktop\/Personal\/Secret_Sharing\/tests\/FiniteFieldTest.cpp",
+          "line": 29
+        },
+        {
+          "name": "InvertingZeroThrowsException",
+          "file": "\/home\/mayank\/Desktop\/Personal\/Secret_Sharing\/tests\/FiniteFieldTest.cpp",
+          "line": 34
+        }
+      ]
+    },
+    {
+      "name": "PolynomialTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "EvaluatesSecretAtZero",
+          "file": "\/home\/mayank\/Desktop\/Personal\/Secret_Sharing\/tests\/PolynomialTest.cpp",
+          "line": 9
+        },
+        {
+          "name": "ZeroThresholdThrowsException",
+          "file": "\/home\/mayank\/Desktop\/Personal\/Secret_Sharing\/tests\/PolynomialTest.cpp",
+          "line": 20
+        }
+      ]
+    },
+    {
+      "name": "ShamirSecretSharingTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "SplitsAndReconstructsSuccessfully",
+          "file": "\/home\/mayank\/Desktop\/Personal\/Secret_Sharing\/tests\/ShamirSecretSharingTest.cpp",
+          "line": 18
+        },
+        {
+          "name": "ReconstructFailsWithInsufficientShares",
+          "file": "\/home\/mayank\/Desktop\/Personal\/Secret_Sharing\/tests\/ShamirSecretSharingTest.cpp",
+          "line": 36
+        },
+        {
+          "name": "InvalidThresholdThrows",
+          "file": "\/home\/mayank\/Desktop\/Personal\/Secret_Sharing\/tests\/ShamirSecretSharingTest.cpp",
+          "line": 52
+        }
+      ]
+    }
+  ]
+}
