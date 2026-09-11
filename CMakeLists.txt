@@ -28,5 +28,12 @@ target_include_directories(shamir_secret_sharing
 )
 # Enable CTest framework for the entire project
 enable_testing()
+
 # Tell CMake to process the tests directory
 add_subdirectory(tests)
+
+# Create the standalone executable
+add_executable(shamir_program src/main.cpp)
+
+# Link the executable with your existing secret sharing library
+target_link_libraries(shamir_program PRIVATE shamir_secret_sharing)
